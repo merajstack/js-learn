@@ -1,6 +1,6 @@
 {
   "name": "merajstackjs",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "A CLI tool to generate JavaScript starter notes folder",
   "bin": {
     "merajjs": "./index.js"
