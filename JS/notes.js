@@ -410,16 +410,40 @@ the program is blocked due to prev instructions*/
 
 // /* ================= CALLBACK ================= */
 
-function sum (a,b){
-    console.log(a+b);
-};
-function calculator(a,b,fns){ // fn passes inside other fn as callback.
-    fns(a,b);
-}
-calculator(10,5,sum);
+// function sum (a,b){
+//     console.log(a+b);
+// };
+// function calculator(a,b,fns){ // fn passes inside other fn as callback.
+//     fns(a,b);
+// }
+// calculator(10,5,sum);
 
+// /* ================= CALLBACK HELL ================= */
+//Nested callback stacked ,difficult to understand and operate.
+// function getData(dataId, getNextData) {
+//   //2s
+//   setTimeout(() => {
+//     console.log("data", dataId);
+//     if (getNextData) {
+//       getNextData();
+//     }
+//   }, 2000);
+// }
 
+// //callback hell
+// getData(1, () => {
+//   console.log("getting data2 ....");
+//   getData(2, () => {
+//     console.log("getting data3 ....");
+//     getData(3, () => {
+//       console.log("getting data4 ....");
+//       getData(4);
+//     });
+//   });
+// });
+//-------------------------------------------------------------------------------
 
+// /* ================= PROMISES ================= */
 
 
 
