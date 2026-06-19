@@ -406,7 +406,17 @@ the program is blocked due to prev instructions*/
 // },2000);
 // console.log("three");
 // console.log("four");
+//-------------------------------------------------------------------------------
 
+// /* ================= CALLBACK ================= */
+
+function sum (a,b){
+    console.log(a+b);
+};
+function calculator(a,b,fns){ // fn passes inside other fn as callback.
+    fns(a,b);
+}
+calculator(10,5,sum);
 
 
 
