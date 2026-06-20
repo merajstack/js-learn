@@ -444,6 +444,8 @@ the program is blocked due to prev instructions*/
 //-------------------------------------------------------------------------------
 
 // /* ================= PROMISES ================= */
-
+let promise = new Promise((resolve,reject)=>{
+    console.log("Hello World!");
+})
 
 
